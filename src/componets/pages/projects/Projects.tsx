@@ -1,3 +1,8 @@
 import React from 'react';
+import { ImageGrid } from './ImageGrid';
 
-export const Projects = () => <h1>This is projects</h1>;
+export const Projects = () => (
+  <div>
+    <ImageGrid />
+  </div>
+);

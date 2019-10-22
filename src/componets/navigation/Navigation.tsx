@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
 
   return (
     <div className={classes.root}>
-      <AppBar color='primary'>
+      <AppBar color='default'>
         <Toolbar>
           <IconButton
             onClick={toggleMenu}
